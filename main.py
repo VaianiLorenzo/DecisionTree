@@ -19,7 +19,6 @@ for fold in folds:
         testSet.append(tmp)
         tmp[-1] = None
     tree = decisionTreeLearning(trainSet)
-    print('ALBEROOO')
     printTree(tree)
     learned = []
     for row in testSet:
